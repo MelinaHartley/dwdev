@@ -1,4 +1,5 @@
-DROP TABLE IF EXISTS [dim].[Vendor]
+DROP TABLE IF EXISTS [dim].[Vendor];
+
 CREATE TABLE [dim].[Vendor]
 (
 	[Vendor_ID]				BIGINT IDENTITY(1,1)	NOT NULL,

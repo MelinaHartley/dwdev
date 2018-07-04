@@ -1,3 +1,5 @@
+DROP TABLE IF EXISTS [dim].[Reason];
+
 CREATE TABLE [dim].[Reason]
 (
     [Reason_ID]				BIGINT IDENTITY(1,1)	NOT NULL,
