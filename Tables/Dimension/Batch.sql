@@ -1,0 +1,13 @@
+CREATE TABLE dim.Batch
+{
+    [BATCH_ID]  bigint IDENTITY(1,1) NOT NULL,
+    [Batch Name] NVARCHAR (20) NOT NULL
+    [Batch Code] NVARCHAR (20) NOT NUlL,
+    [Batch Description] NVARCHAR (20) NOT NULL,
+    [Material Vendor] NVARCHAR (20) NOT NULL,
+    [EFF_DATE] TIMESTAMP NOT NULL,
+    [END_DATE] TIMESTAMP NOT NULL,
+    [IS_CURRENT] NVARCHAR (20) NOT NULL
+
+    
+}
