@@ -4,7 +4,6 @@ CREATE TABLE dim.Material
     [Material Name] NVARCHAR (20) NOT NULL
     [Material Code] NVARCHAR (20) NOT NUlL,
     [Material Description] NVARCHAR (20) NOT NULL,
-    [Material Description] NVARCHAR (20) NOT NULL,
     [Material Vendor] NVARCHAR (20) NOT NULL,
     [EFF_DATE] TIMESTAMP NOT NULL,
     [END_DATE] TIMESTAMP NOT NULL,

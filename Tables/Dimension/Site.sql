@@ -1,0 +1,15 @@
+CREATE TABLE dim.Site
+{
+    [SITE_ID]  bigint IDENTITY(1,1) NOT NULL,
+    [Site Name] NVARCHAR (20) NOT NULL
+    [Site Code] NVARCHAR (20) NOT NUlL,
+    [Adress] NVARCHAR (20)
+    [Region] NVARCHAR (20)
+    [City] NVARCHAR (20)
+    [Country] NVARCHAR (20)
+    [EFF_DATE] TIMESTAMP NOT NULL,
+    [END_DATE] TIMESTAMP NOT NULL,
+    [IS_CURRENT] NVARCHAR (20) NOT NULL
+
+    
+}
