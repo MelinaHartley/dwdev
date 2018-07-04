@@ -1,5 +1,15 @@
-CREATE TABLE dim.Item
+CREATE TABLE dim.Material
 {
-    ItemID  bigint IDENTITY(1,1) NOT NULL,
+    [MATERIAL_ID]  bigint IDENTITY(1,1) NOT NULL,
+    [Material Name] NVARCHAR (20) NOT NULL
+    [Material Code] NVARCHAR (20) NOT NUlL,
+    [Material Description] NVARCHAR (20) NOT NULL,
+    [Material Type] NVARCHAR (20) NOT NULL,
+    [Material Description] NVARCHAR (20) NOT NULL,
+    [Material Vendor] NVARCHAR (20) NOT NULL,
+    [EFF_DATE] NVARCHAR (20) NOT NULL,
+    [END_DATE] NVARCHAR (20) NOT NULL,
+    [IS_CURRENT] NVARCHAR (20) NOT NULL
+
     
 }
