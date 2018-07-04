@@ -4,12 +4,11 @@ CREATE TABLE dim.Equipment
     [Equipment Name] NVARCHAR (20) NOT NULL
     [Equipment Code] NVARCHAR (20) NOT NUlL,
     [Equipment Description] NVARCHAR (20) NOT NULL,
-    [Equipment Type] NVARCHAR (20) NOT NULL,
     [Equipment Description] NVARCHAR (20) NOT NULL,
     [Equipment Vendor] NVARCHAR (20) NOT NULL,
-    [Equipment Activuty] NVARCHAR (20) NOT NULL,
-    [EFF_DATE] NVARCHAR (20) NOT NULL,
-    [END_DATE] NVARCHAR (20) NOT NULL,
+    [Equipment Activity] NVARCHAR (20) NOT NULL,
+    [EFF_DATE] TIMESTAMP NOT NULL,
+    [END_DATE] TIMESTAMP NOT NULL,
     [IS_CURRENT] NVARCHAR (20) NOT NULL
 
     
