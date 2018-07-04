@@ -1,9 +1,11 @@
+DROP TABLE IF EXISTS [dim].[Site];
+
 CREATE TABLE [dim].[Site]
 (
 	[SITE_ID]		BIGINT IDENTITY(1,1)	NOT NULL,
 	[Site Code]		NVARCHAR(50)			NOT NULL,
 	[Site Name]		NVARCHAR(255)			NOT NULL,
-	[Adress]		NVARCHAR(255)			NOT NULL,
+	[Address]		NVARCHAR(255)			NOT NULL,
 	[Region]		NVARCHAR(255)			NOT NULL,
 	[City]			NVARCHAR(255)			NOT NULL,
 	[Country]		NVARCHAR(25)			NOT NULL,
