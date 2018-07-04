@@ -1,11 +1,11 @@
-CREATE TABLE dim.Reason Type
-(
-    [Reason_TYPE_ID]  BIGINT IDENTITY(1,1) NOT NULL,
-    [Reason Type Name] NVARCHAR(20) NOT NULL
-    [Reason Type Description] NVARCHAR(20) NOT NULL,
-    [EFF_DATE] NVARCHAR(20) NOT NULL,
-    [END_DATE] NVARCHAR(20) NOT NULL,
-        [Site Code] BIT NOT NULL,
+DROP TABLE IF EXISTS  [dim].[Reason Type];
 
-    
-)
+CREATE TABLE [dim].[Reason Type]
+(
+	[REASON_TYPE_ID]			BIGINT IDENTITY(1,1)	NOT NULL,
+	[Reason Type Name]			NVARCHAR(255)			NOT NULL,
+	[Reason Type Description]	NVARCHAR(2000)			NOT NULL,
+	[EFF_DATE]					DATETIMEOFFSET(7)		NOT NULL,
+	[END_DATE]					DATETIMEOFFSET(7)		NOT NULL,
+	[IS_CURRENT]				BIT						NOT NULL  
+);

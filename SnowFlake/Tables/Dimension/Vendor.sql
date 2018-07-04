@@ -7,7 +7,6 @@ CREATE TABLE [dim].[Vendor]
 	[Vendor Name]			NVARCHAR(255)			NOT NULL,
 	[Vendor Description]	NVARCHAR(2000)			NOT NULL,
 	[Vendor Type]			NVARCHAR(50)			NOT NULL,
-	[Material Location]		NVARCHAR(255)			NOT NULL,
 	[EFF_DATE]				DATETIMEOFFSET(7)		NOT NULL,
 	[END_DATE]				DATETIMEOFFSET(7)		NOT NULL,
 	[IS_CURRENT]			BIT						NOT NULL
