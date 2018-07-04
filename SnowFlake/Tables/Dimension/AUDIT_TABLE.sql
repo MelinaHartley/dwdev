@@ -8,5 +8,6 @@ CREATE TABLE [utility].[AUDIT_TABLE]
     [Allocation Version]			NVARCHAR(50)			NOT NULL,
     [Missing Data Flag]				BIT						NOT NULL,
     [Data Supplied Flag]			BIT						NOT NULL,
-    [Unlikely Value Flag]			BIT						NOT NULL
+    [Unlikely Value Flag]			BIT						NOT NULL,
+	[MODIFIEDDATE]					DATETIME				NOT NULL
 );

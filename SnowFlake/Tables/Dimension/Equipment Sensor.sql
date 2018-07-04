@@ -4,11 +4,12 @@ CREATE TABLE [dim].[Equipment Sensor]
 (
 	[EQUIPMENT_ID]					BIGINT					NOT NULL,
 	[EQUIPMENT_SENSOR_ID]			BIGINT IDENTITY(1,1)	NOT NULL,
-	[Equiment Sensor Code]			NVARCHAR(50)			NOT NULL,
-	[Equiment Sensor Name]			NVARCHAR(2255)			NOT NULL,
-	[Equiment Sensor Description]	NVARCHAR(20)			NOT NULL,
+	[Equipment Sensor Code]			NVARCHAR(50)			NOT NULL,
+	[Equipment Sensor Name]			NVARCHAR(2255)			NOT NULL,
+	[Equipment Sensor Description]	NVARCHAR(20)			NOT NULL,
 	[EQUIPMENT_SENSOR_VENDOR_ID]	NVARCHAR(20)			NOT NULL,
 	[EFF_DATE]						DATETIMEOFFSET(7)		NOT NULL,
 	[END_DATE]						DATETIMEOFFSET(7)		NOT NULL,
-	[IS_CURRENT]					BIT						NOT NULL
+	[IS_CURRENT]					BIT						NOT NULL,
+	[MODIFIEDDATE]					DATETIME				NOT NULL
 );
