@@ -1,10 +1,14 @@
-CREATE TABLE dim.Equiment Sensor
-(
-    [Equiment_Sensor_ID]  BIGINT IDENTITY(1,1) NOT NULL,
-    [Equiment Sensor Name] NVARCHAR(20) NOT NULL
-    [Equiment Sensor Code] NVARCHAR(20) NOT NULL,
-    [Equiment Description] NVARCHAR(20) NOT NULL,
-    [Equipment value] NVARCHAR(20) NOT NULL,
+DROP TABLE IF EXISTS [dim].[Equipment Sensor];
 
-    
-)
+CREATE TABLE [dim].[Equipment Sensor]
+(
+	[EQUIPMENT_ID]					BIGINT					NOT NULL,
+	[EQUIPMENT_SENSOR_ID]			BIGINT IDENTITY(1,1)	NOT NULL,
+	[Equiment Sensor Code]			NVARCHAR(50)			NOT NULL,
+	[Equiment Sensor Name]			NVARCHAR(2255)			NOT NULL,
+	[Equiment Sensor Description]	NVARCHAR(20)			NOT NULL,
+	[EQUIPMENT_SENSOR_VENDOR_ID]	NVARCHAR(20)			NOT NULL,
+	[EFF_DATE]						DATETIMEOFFSET(7)		NOT NULL,
+	[END_DATE]						DATETIMEOFFSET(7)		NOT NULL,
+	[IS_CURRENT]					BIT						NOT NULL
+);

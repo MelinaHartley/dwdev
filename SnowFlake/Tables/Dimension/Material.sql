@@ -1,13 +1,13 @@
-CREATE TABLE dim.Material
-(
-    [MATERIAL_ID]  BIGINT IDENTITY(1,1) NOT NULL,
-    [Material Name] NVARCHAR(20) NOT NULL
-    [Material Code] NVARCHAR(20) NOT NULL,
-    [Material Description] NVARCHAR(20) NOT NULL,
-    [Material Vendor] NVARCHAR(20) NOT NULL,
-    [EFF_DATE] DATETIMEOFFSET(7) NOT NULL,
-    [END_DATE] DATETIMEOFFSET(7) NOT NULL,
-        [Site Code] BIT NOT NULL,
+DROP TABLE IF EXISTS[dim].[Material];
 
-    
-)
+CREATE TABLE [dim].[Material]
+(
+    [MATERIAL_ID]				BIGINT IDENTITY(1,1)	NOT NULL,
+    [Material Code]				NVARCHAR(50)			NOT NULL,
+    [Material Name]				NVARCHAR(255)			NOT NULL,
+    [Material Description]		NVARCHAR(2000)			NOT NULL,
+    [MATERIAL_VENDOR_ID]		BIGINT					NOT NULL,
+ 	[EFF_DATE]					DATETIMEOFFSET(7)		NOT NULL,
+	[END_DATE]					DATETIMEOFFSET(7)		NOT NULL,
+	[IS_CURRENT]				BIT						NOT NULL  
+);
