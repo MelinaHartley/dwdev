@@ -4,7 +4,7 @@ CREATE TABLE [dim].[Plant]
 (
 	[SITE_KEY]		    BIGINT IDENTITY(1,1)	NOT NULL,
 	[Plant Code]	    NVARCHAR(50)	    	NOT NULL,
-	[Plant Name]		    NVARCHAR(255)			NOT NULL,
+	[Plant Name]		NVARCHAR(255)			NOT NULL,
 	[Address]		    NVARCHAR(255)			NOT NULL,
 	[Region]		    NVARCHAR(255)			NOT NULL,
 	[City]			    NVARCHAR(255)			NOT NULL,
