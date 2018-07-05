@@ -1,6 +1,6 @@
-TRUNCATE TABLE [dim].[Equipment];
+DELETE [dbo].[Equipment];
 
-INSERT INTO [dim].[Equipment]
+INSERT INTO [dbo].[Equipment]
 (
 	[PLANT_ID],
 	[Equipment Code],
@@ -25,7 +25,7 @@ SELECT
 	1,
 	GETDATE();
 
-INSERT INTO [dim].[Equipment]
+INSERT INTO [dbo].[Equipment]
 (
 	[PLANT_ID],
 	[Equipment Code],
@@ -50,7 +50,7 @@ SELECT
 	1,
 	GETDATE();
 
-INSERT INTO [dim].[Equipment]
+INSERT INTO [dbo].[Equipment]
 (
 	[PLANT_ID],
 	[Equipment Code],
@@ -75,7 +75,7 @@ SELECT
 	1,
 	GETDATE();
 
-INSERT INTO [dim].[Equipment]
+INSERT INTO [dbo].[Equipment]
 (
 	[PLANT_ID],
 	[Equipment Code],
@@ -100,7 +100,7 @@ SELECT
 	1,
 	GETDATE();
 
-	INSERT INTO [dim].[Equipment]
+	INSERT INTO [dbo].[Equipment]
 (
 	[PLANT_ID],
 	[Equipment Code],
@@ -125,7 +125,7 @@ SELECT
 	1,
 	GETDATE();
 
-INSERT INTO [dim].[Equipment]
+INSERT INTO [dbo].[Equipment]
 (
 	[PLANT_ID],
 	[Equipment Code],
@@ -150,7 +150,7 @@ SELECT
 	1,
 	GETDATE();
 
-INSERT INTO [dim].[Equipment]
+INSERT INTO [dbo].[Equipment]
 (
 	[PLANT_ID],
 	[Equipment Code],

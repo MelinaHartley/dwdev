@@ -1,6 +1,6 @@
-TRUNCATE TABLE [dim].[Activity Type];
+DELETE [dbo].[Activity Type];
 
-INSERT INTO [dim].[Activity Type]
+INSERT INTO [dbo].[Activity Type]
 (
 	[Activity Type Code],
 	[Activity Type Name],
@@ -19,7 +19,7 @@ SELECT
 	1,
 	GETDATE();
 
-INSERT INTO [dim].[Activity Type]
+INSERT INTO [dbo].[Activity Type]
 (
 	[Activity Type Code],
 	[Activity Type Name],
@@ -38,7 +38,7 @@ SELECT
 	1,
 	GETDATE();
 
-INSERT INTO [dim].[Activity Type]
+INSERT INTO [dbo].[Activity Type]
 (
 	[Activity Type Code],
 	[Activity Type Name],
@@ -57,7 +57,7 @@ SELECT
 	1,
 	GETDATE();
 
-INSERT INTO [dim].[Activity Type]
+INSERT INTO [dbo].[Activity Type]
 (
 	[Activity Type Code],
 	[Activity Type Name],

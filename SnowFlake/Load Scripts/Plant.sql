@@ -1,6 +1,6 @@
-TRUNCATE TABLE [dim].[Plant];
+DELETE [dbo].[Plant];
 
-INSERT INTO [dim].[Plant]
+INSERT INTO [dbo].[Plant]
 (
 	[Plant Code],
 	[Plant Name],
@@ -25,7 +25,7 @@ SELECT
 	1,
 	GETDATE();
 
-INSERT INTO [dim].[Plant]
+INSERT INTO [dbo].[Plant]
 (
 	[Plant Code],
 	[Plant Name],

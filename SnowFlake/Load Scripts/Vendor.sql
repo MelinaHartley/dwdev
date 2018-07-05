@@ -1,6 +1,6 @@
-TRUNCATE TABLE [dim].[Vendor];
+DELETE [dbo].[Vendor];
 
-INSERT INTO [dim].[Vendor]
+INSERT INTO [dbo].[Vendor]
 (
 	[Vendor Code],
 	[Vendor Name],
@@ -21,7 +21,7 @@ SELECT
 	1,
 	GETDATE();
 
-INSERT INTO [dim].[Vendor]
+INSERT INTO [dbo].[Vendor]
 (
 	[Vendor Code],
 	[Vendor Name],

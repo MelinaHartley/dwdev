@@ -1,6 +1,6 @@
-TRUNCATE TABLE [dim].[Shift]
+DELETE [dbo].[Shift]
 
-INSERT INTO [dim].[Shift]
+INSERT INTO [dbo].[Shift]
 (
 	[Shift Code],
 	[Shift Name],
@@ -22,7 +22,7 @@ SELECT
 	GETDATE();
 
 
-INSERT INTO [dim].[Shift]
+INSERT INTO [dbo].[Shift]
 (
 	[Shift Code],
 	[Shift Name],
@@ -44,7 +44,7 @@ SELECT
 	GETDATE();
 
 	
-INSERT INTO [dim].[Shift]
+INSERT INTO [dbo].[Shift]
 (
 	[Shift Code],
 	[Shift Name],

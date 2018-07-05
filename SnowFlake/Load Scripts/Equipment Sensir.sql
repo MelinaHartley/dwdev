@@ -1,7 +1,8 @@
-TRUNCATE TABLE [dim].[Equipment Sensor];
+DELETE [dbo].[Equipment Sensor];
 
-INSERT INTO [dim].[Equipment Sensor]
+INSERT INTO [dbo].[Equipment Sensor]
 (
+	[PLANT_ID],
 	[EQUIPMENT_ID],
 	[Equipment Sensor Code],
 	[Equipment Sensor Name],
@@ -13,6 +14,7 @@ INSERT INTO [dim].[Equipment Sensor]
 	[MODIFIEDDATE]
 )
 SELECT
+	1,
 	1,
 	'SE1',
 	'Sensor 1',
@@ -23,8 +25,9 @@ SELECT
 	1,
 	GETDATE();
 
-INSERT INTO [dim].[Equipment Sensor]
+INSERT INTO [dbo].[Equipment Sensor]
 (
+	[PLANT_ID],
 	[EQUIPMENT_ID],
 	[Equipment Sensor Code],
 	[Equipment Sensor Name],
@@ -36,6 +39,7 @@ INSERT INTO [dim].[Equipment Sensor]
 	[MODIFIEDDATE]
 )
 SELECT
+	1,
 	1,
 	'SE2',
 	'Sensor 2',

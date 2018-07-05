@@ -1,0 +1,3 @@
+ALTER TABLE [dbo].[Equipment Sensor]     
+ADD CONSTRAINT FK_Equipment_Sensor_PLANT_ID_EQUIPMENT_ID FOREIGN KEY (PLANT_ID, EQUIPMENT_ID)     
+    REFERENCES [dbo].[Equipment] (PLANT_ID, EQUIPMENT_ID); 
