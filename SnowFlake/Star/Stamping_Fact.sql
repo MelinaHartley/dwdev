@@ -3,6 +3,7 @@ DROP TABLE IF EXISTS [fact].[Stamping];
 CREATE TABLE [fact].[Stamping]
 (
 	[STAMPING_KEY]	                                	BIGINT IDENTITY(1,1)	NOT NULL,
+    [Process Order ID]
 	[Production Date]	                            	DATETIMEOFFSET(7)		NOT NULL,
 	[Production End]	    	                        DATETIMEOFFSET(7)		NOT NULL,
     [Production Hour Duration]                          DECIMAL(7,2)            NOT NULL,
