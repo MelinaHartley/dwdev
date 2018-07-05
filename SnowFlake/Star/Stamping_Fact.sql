@@ -4,9 +4,9 @@ CREATE TABLE [fact].[Stamping]
 (
 	[STAMPING_KEY]	                                	BIGINT IDENTITY(1,1)	NOT NULL,
     [Process Order ID]                                  NVARCHAR (50)           NOT NULL,
-	[Production Date]	                            	DATETIMEOFFSET(7)		NOT NULL,
-	[Production End]	    	                        DATETIMEOFFSET(7)		NOT NULL,
-    [Production Hour Duration]                          DECIMAL(7,2)            NOT NULL,
+	[Process Date]	                                 	DATETIMEOFFSET(7)		NOT NULL,
+	[Process End]	    	                            DATETIMEOFFSET(7)		NOT NULL,
+    [Process Hour Duration]                             DECIMAL(7,2)            NOT NULL,
     [Equipment Set Up Start]                            DATETIMEOFFSET(7)       NOT NULL,
     [Equipment Set Up End]                              DATETIMEOFFSET(7)       NOT NULL,
     [Equipment Set up Duration]                         DECIMAL(7,2)            NOT NULL,
