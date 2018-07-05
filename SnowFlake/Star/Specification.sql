@@ -2,7 +2,7 @@ DROP TABLE IF EXISTS [utility].[Specification];
 
 CREATE TABLE [utility].[Specification]
 (
-    [Specification_KEY]		 BIGINT IDENTITY(1,1)	NOT NULL,
+    [SPECIFICSTION_KEY]		 BIGINT IDENTITY(1,1)	NOT NULL,
 	[Target]	             NVARCHAR(50)	    	NOT NULL,
 	[High Specification]     NVARCHAR(255)			NOT NULL,
 	[Low Specification]		 NVARCHAR(255)			NOT NULL,
