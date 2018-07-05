@@ -1,0 +1,3 @@
+ALTER TABLE [dbo].[Reason]     
+ADD CONSTRAINT FK_Reason_Reason_Type_REASON_TYPE_ID FOREIGN KEY (REASON_TYPE_ID)     
+    REFERENCES [dbo].[Reason Type] (REASON_TYPE_ID); 

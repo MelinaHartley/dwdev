@@ -1,0 +1,3 @@
+ALTER TABLE [dbo].[Material]     
+ADD CONSTRAINT FK_Material_Material_Type_MATERIAL_TYPE_ID FOREIGN KEY (MATERIAL_TYPE_ID)     
+    REFERENCES [dbo].[Material Type] (MATERIAL_TYPE_ID); 
