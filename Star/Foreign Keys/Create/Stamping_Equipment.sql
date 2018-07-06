@@ -1,0 +1,3 @@
+ALTER TABLE [fact].[Stamping]     
+ADD CONSTRAINT FK_Stamping_Equipment_EQUIPMENT_KEY FOREIGN KEY (EQUIPMENT_KEY)     
+    REFERENCES [dim].[Equipment] (EQUIPMENT_KEY); 

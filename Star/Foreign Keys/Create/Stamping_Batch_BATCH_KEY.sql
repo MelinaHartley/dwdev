@@ -1,0 +1,3 @@
+ALTER TABLE [fact].[Stamping]      
+ADD CONSTRAINT FK_Stamping_Batch_BATCH_KEY FOREIGN KEY (BATCH_KEY)     
+    REFERENCES [dim].[BATCH] (BATCH_KEY); 
