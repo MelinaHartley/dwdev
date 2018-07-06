@@ -1,6 +1,6 @@
-DROP TABLE IF EXISTS [fact].[Stamping];
+DROP TABLE IF EXISTS [fact].[Mixing];
 
-CREATE TABLE [fact].[Stamping]
+CREATE TABLE [fact].[Mixing]
 (
 	[MIXING_KEY]	                                	BIGINT IDENTITY(1,1)     NOT NULL,
     [Process Order ID]                                  NVARCHAR (50)            NOT NULL,

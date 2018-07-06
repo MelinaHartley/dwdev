@@ -1,8 +1,8 @@
-DROP TABLE IF EXISTS [fact].[Stamping];
+DROP TABLE IF EXISTS [fact].[Curing];
 
-CREATE TABLE [fact].[Stamping]
+CREATE TABLE [fact].[Curing]
 (
-	[MIXING_KEY]	                                	BIGINT IDENTITY(1,1)     NOT NULL,
+	[CURING_KEY]	                                	BIGINT IDENTITY(1,1)     NOT NULL,
     [Process Order ID]                                  NVARCHAR (50)            NOT NULL,
 	[Process Date start]	                            DATETIMEOFFSET(7)        NOT NULL,
 	[Process Date End]	    	                        DATETIMEOFFSET(7)        NOT NULL,
