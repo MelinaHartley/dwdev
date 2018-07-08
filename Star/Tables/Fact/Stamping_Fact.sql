@@ -7,8 +7,6 @@ CREATE TABLE [fact].[Stamping]
     [MATERIAL_KEY]	                                	BIGINT                   NOT NULL,
     [REASON_KEY]	                                	BIGINT                   NOT NULL,
     [SHIFT_KEY]	                                    	BIGINT                   NOT NULL,
-    [AUDIT_KEY]	                                    	BIGINT                   NOT NULL,
-    [SPECIFICATIONS_KEY]	                          	BIGINT                   NOT NULL,
     [Process Order ID]                                  NVARCHAR (50)            NOT NULL,
 	[Process Date start]	                            DATETIMEOFFSET(7)        NOT NULL,
 	[Process Date End]	    	                        DATETIMEOFFSET(7)        NOT NULL,
