@@ -2,7 +2,13 @@ DROP TABLE IF EXISTS [fact].[Stamping];
 
 CREATE TABLE [fact].[Stamping]
 (
-	[MIXING_KEY]	                                	BIGINT IDENTITY(1,1)     NOT NULL,
+	[EQUIPMENT_KEY]	                                	BIGINT                   NOT NULL,
+    [BATCH_KEY]	                                    	BIGINT                   NOT NULL,
+    [MATERIAL_KEY]	                                	BIGINT                   NOT NULL,
+    [REASON_KEY]	                                	BIGINT                   NOT NULL,
+    [SHIFT_KEY]	                                    	BIGINT                   NOT NULL,
+    [AUDIT_KEY]	                                    	BIGINT                   NOT NULL,
+    [SPECIFICATIONS_KEY]	                          	BIGINT                   NOT NULL,
     [Process Order ID]                                  NVARCHAR (50)            NOT NULL,
 	[Process Date start]	                            DATETIMEOFFSET(7)        NOT NULL,
 	[Process Date End]	    	                        DATETIMEOFFSET(7)        NOT NULL,
