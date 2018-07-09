@@ -30,6 +30,7 @@ CREATE TABLE [utility].[Production Measure]
 	[High Specification]   							    NVARCHAR(255)			 NOT NULL,
 	[Low Specification]								    NVARCHAR(255)			 NOT NULL,
 	[Planned Production Time]						    NVARCHAR(255)			 NOT NULL,
+	[Measure Unit]										NVARCHAR(50)			 NOT NULL,
 	[EFF_DATE]		     							    DATETIMEOFFSET(7)		 NOT NULL,
 	[END_DATE]		  							        DATETIMEOFFSET(7)		 NOT NULL,
 	[IS_CURRENT]	    					    	    BIT					     NOT NULL
