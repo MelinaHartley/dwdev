@@ -1,0 +1,3 @@
+ALTER TABLE [fact].[Mixing]      
+ADD CONSTRAINT FK_Mixing_Tool_TOOL_KEY FOREIGN KEY (TOOL_KEY)     
+    REFERENCES [Dim].[Tool] (TOOL_KEY); 
