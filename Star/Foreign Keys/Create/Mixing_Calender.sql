@@ -1,0 +1,3 @@
+ALTER TABLE [fact].[Mixing]      
+ADD CONSTRAINT FK_Mixing_Calender_CALENDER_KEY FOREIGN KEY (CALENDER_KEY)     
+    REFERENCES [Utility].[Calender] (CALENDER_KEY); 
