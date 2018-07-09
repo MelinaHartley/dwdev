@@ -1,0 +1,3 @@
+ALTER TABLE [fact].[Summary]      
+ADD CONSTRAINT FK_Summary_Material_MATERIAL_KEY FOREIGN KEY (MATERIAL_KEY)     
+    REFERENCES [dim].[Material] (MATERIAL_KEY); 

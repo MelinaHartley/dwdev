@@ -1,0 +1,3 @@
+ALTER TABLE [fact].[Curing]      
+ADD CONSTRAINT FK_Curing_Material_MATERIAL_KEY FOREIGN KEY (MATERIAL_KEY)     
+    REFERENCES [dim].[Material] (MATERIAL_KEY); 

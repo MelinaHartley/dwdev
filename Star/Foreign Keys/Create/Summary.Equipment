@@ -1,0 +1,3 @@
+ALTER TABLE [fact].[Summary]    
+ADD CONSTRAINT FK_Summary_Equipment_EQUIPMENT_KEY FOREIGN KEY (EQUIPMENT_KEY)     
+    REFERENCES [dim].[Equipment] (EQUIPMENT_KEY); 

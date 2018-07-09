@@ -1,0 +1,3 @@
+ALTER TABLE [fact].[Curing]    
+ADD CONSTRAINT FK_Curing_Equipment_EQUIPMENT_KEY FOREIGN KEY (EQUIPMENT_KEY)     
+    REFERENCES [dim].[Equipment] (EQUIPMENT_KEY); 

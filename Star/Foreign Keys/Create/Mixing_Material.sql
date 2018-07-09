@@ -1,0 +1,3 @@
+ALTER TABLE [fact].[Mixing]      
+ADD CONSTRAINT FK_Mixing_Material_MATERIAL_KEY FOREIGN KEY (MATERIAL_KEY)     
+    REFERENCES [dim].[Material] (MATERIAL_KEY); 

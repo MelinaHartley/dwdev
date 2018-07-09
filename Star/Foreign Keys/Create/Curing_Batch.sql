@@ -1,0 +1,3 @@
+ALTER TABLE [fact].[Curing]      
+ADD CONSTRAINT FK_Curing_Batch_BATCH_KEY FOREIGN KEY (BATCH_KEY)     
+    REFERENCES [dim].[BATCH] (BATCH_KEY); 

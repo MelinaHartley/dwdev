@@ -1,0 +1,3 @@
+ALTER TABLE [fact].[Curing]      
+ADD CONSTRAINT FK_Curing_Audit_AUDIT_KEY FOREIGN KEY (AUDIT_KEY)     
+    REFERENCES [Utility].[AUDIT_TABLE] (AUDIT_KEY); 

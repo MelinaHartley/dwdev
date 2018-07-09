@@ -1,0 +1,3 @@
+ALTER TABLE [fact].[Curing]      
+ADD CONSTRAINT FK_Curing_Shift_SHIFT_KEY FOREIGN KEY (SHIFT_KEY)     
+    REFERENCES [Dim].[Shift] (SHIFT_KEY); 

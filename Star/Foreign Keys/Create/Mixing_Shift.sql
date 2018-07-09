@@ -1,0 +1,3 @@
+ALTER TABLE [fact].[Mixing]      
+ADD CONSTRAINT FK_Mixing_Shift_SHIFT_KEY FOREIGN KEY (SHIFT_KEY)     
+    REFERENCES [Dim].[Shift] (SHIFT_KEY); 

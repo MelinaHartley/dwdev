@@ -1,0 +1,3 @@
+ALTER TABLE [fact].[Mixing]     
+ADD CONSTRAINT FK_Mixing_Reason_REASON_KEY FOREIGN KEY (REASON_KEY)     
+    REFERENCES [dim].[Reason] (REASON_KEY); 

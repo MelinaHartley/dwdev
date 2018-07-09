@@ -1,0 +1,3 @@
+ALTER TABLE [fact].[Mixing]      
+ADD CONSTRAINT FK_Mixing_Batch_BATCH_KEY FOREIGN KEY (BATCH_KEY)     
+    REFERENCES [dim].[BATCH] (BATCH_KEY); 

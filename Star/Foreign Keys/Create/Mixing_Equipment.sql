@@ -1,0 +1,3 @@
+ALTER TABLE [fact].[Mixing]    
+ADD CONSTRAINT FK_Mixing_Equipment_EQUIPMENT_KEY FOREIGN KEY (EQUIPMENT_KEY)     
+    REFERENCES [dim].[Equipment] (EQUIPMENT_KEY); 
