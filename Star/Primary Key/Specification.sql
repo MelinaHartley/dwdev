@@ -1,0 +1,3 @@
+ALTER TABLE [utility].[Specification]
+ADD CONSTRAINT [PK_utilitySpecification]
+PRIMARY KEY CLUSTERED (SPECIFICATION_KEY);
