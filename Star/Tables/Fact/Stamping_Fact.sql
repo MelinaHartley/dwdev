@@ -23,4 +23,5 @@ CREATE TABLE [fact].[Stamping]
     [Units Amount at Start of Production]               DECIMAL(19,2)            NOT NULL,
     [Weight Measurement After Production]               DECIMAL(19,2)            NOT NULL,
     [Units Amount at End of Production]                 DECIMAL(19,2)            NOT NULL,
+    [Euro Price Amount Per Unit]                        DECIMAL(19,2)            NOT NULL,
 );
