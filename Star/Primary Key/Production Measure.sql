@@ -1,0 +1,3 @@
+ALTER TABLE [utility].[Production_Measure]
+ADD CONSTRAINT [PK_dimProduction_Measure]
+PRIMARY KEY CLUSTERED (PRODUCTION_MEASURE_KEY);
