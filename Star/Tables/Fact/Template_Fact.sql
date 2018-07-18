@@ -1,8 +1,9 @@
-DROP TABLE IF EXISTS [fact].[Summary];
-
-CREATE TABLE [fact].[Summary]
+DROP TABLE IF EXISTS [fact].[Template];
+--change name of table where you see "Template"--
+CREATE TABLE [fact].[Template]
+--change name of table where you see "Template"--
 (
-	--Start of foreign keys--
+--Start of foreign keys--
 	[EQUIPMENT_KEY]	                                	BIGINT                   NOT NULL,
     [BATCH_KEY]	                                    	BIGINT                   NOT NULL,
     [MATERIAL_KEY]	                                	BIGINT                   NOT NULL,
