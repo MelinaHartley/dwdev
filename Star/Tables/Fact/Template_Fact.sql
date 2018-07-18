@@ -9,7 +9,7 @@ CREATE TABLE [fact].[Template]
     [MATERIAL_KEY]	                                	BIGINT                   NOT NULL,
     [REASON_KEY]	                                	BIGINT                   NOT NULL,
     [SHIFT_KEY]	                                    	BIGINT                   NOT NULL,
-    [TOOL_KEY]
+    [TOOL_KEY]                                          BIGINT                   NOT NULL,
     [CALENDER_KEY]                                      BIGINT                   NOT NULL,
     [PRODUCTION_MEASURE_KEY]                            BIGINT                   NOT NULL,
     [AUDIT_KEY]                                         BIGINT                   NOT NULL,
