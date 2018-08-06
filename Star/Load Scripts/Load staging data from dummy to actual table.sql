@@ -1,7 +1,8 @@
 
 INSERT INTO [fact].[Stamping]
 (
-		  [BATCH_KEY]
+		[EQUIPMENT_KEY]
+		 ,[BATCH_KEY]
 		 ,[MATERIAL_KEY]
 	     ,[REASON_KEY]
 	     ,[SHIFT_KEY]
@@ -27,7 +28,8 @@ INSERT INTO [fact].[Stamping]
 )
 SELECT	  [fact].[Stamping]
 (          
-		  [BATCH_KEY]
+		  [EQUIPMENT_KEY]
+		 ,[BATCH_KEY]
 		 ,[MATERIAL_KEY]
 	     ,[REASON_KEY]
 	     ,[SHIFT_KEY]

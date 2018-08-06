@@ -32,4 +32,5 @@ CREATE TABLE [fact].[Curing]
     [External Sample Quantity]                          DECIMAL(19,2)            NOT NULL,
     --Value data goes here--
     [Euro Price Amount Per Unit]                        DECIMAL(19,2)            NOT NULL,
-);
+)
+ORGANIZE BY COLUMN;
