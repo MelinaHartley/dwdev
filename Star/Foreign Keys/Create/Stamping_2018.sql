@@ -1,0 +1,3 @@
+ALTER TABLE [fact].[Stamping]      
+ADD CONSTRAINT FK_Stamping_2018_Measures_2018_MEASURES_KEY FOREIGN KEY (2018_MEASURES_KEY)     
+    REFERENCES [Utility].[2018 Measures] (2018_MEASURES_KEY); 
