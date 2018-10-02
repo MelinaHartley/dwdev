@@ -3,7 +3,6 @@ DROP TABLE IF EXISTS [utility].[Production Measure];
 CREATE TABLE [utility].[Production Measure]
 (
     [PRODUCTION_MEASURE_KEY]	   				    	BIGINT IDENTITY(1,1)	 NOT NULL,
-	[SPECIFICATION_KEY]	   				            	BIGINT 					 NOT NULL,
 	[Process Hour Duration]                             DECIMAL(19,2)            NOT NULL,
 	[Equipment Set up Duration]                         DECIMAL(19,2)            NOT NULL,
 	[Equipment Adjutsment Duration]                     DECIMAL(19,2)            NOT NULL,
@@ -19,7 +18,7 @@ CREATE TABLE [utility].[Production Measure]
   	[Scraps Measurement]                                DECIMAL(19,2)            NOT NULL,
     [Units of Scraps]                                   DECIMAL(19,2)            NOT NULL,
 	[Cost of Scraps]									DECIMAL(19,2)            NOT NULL,
-    [Finished Good MeasuremenT]                         DECIMAL(19,2)            NOT NULL,   
+    [Finished Good Measurement]                         DECIMAL(19,2)            NOT NULL,   
     [Finished Units of Good]                            DECIMAL(19,2)            NOT NULL,
 	[Cost of Finished Goods]							DECIMAL(19,2)            NOT NULL,
     [Reworked Scraps Measurement]                       DECIMAL(19,2)            NOT NULL,
